@@ -12,6 +12,7 @@ Example
 
 ```C
 #include <pthread.h>
+#include "download-agent-interface.h"
 
 static GMainLoop* loop = NULL;
 static void update_download_info_cb(user_download_info_t *download_info, void *user_param) { }
